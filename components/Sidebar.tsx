@@ -17,8 +17,8 @@ const Sidebar = () => {
         src="https://sumitdey.netlify.app/static/media/max.9d3a6d3e.jpg"
         alt="avatar"
         className=" mx-auto border rounded-full "
-        height="128px"
-        width="128px"
+        height={128}
+        width={128}
         layout="intrinsic"
         quality="100"
       />

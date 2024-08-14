@@ -1,5 +1,11 @@
 module.exports = {
   images: {
-    domains: ["sumitdey.netlify.app"],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'sumitdey.netlify.app',
+        pathname: '/**',
+      },
+    ],
   },
 };

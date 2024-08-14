@@ -10,13 +10,11 @@ const NavItem: FunctionComponent<{
 }> = ({ active, setActive, name, route }) => {
    return active !== name ? (
       <Link href={route}>
-         <a>
-            <span
-               className='mx-2 cursor-pointer hover:border-b-4 hover:text-green'
-               onClick={() => setActive(name)}>
-               {name}
-            </span>
-         </a>
+         <span
+            className='mx-2 cursor-pointer hover:border-b-4 hover:text-green'
+            onClick={() => setActive(name)}>
+            {name}
+         </span>
       </Link>
    ) : null
 }
