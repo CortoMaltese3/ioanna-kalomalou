@@ -1,5 +1,6 @@
 import { FunctionComponent, useState } from "react";
-import { AiFillGithub, AiFillProject } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import { FaProjectDiagram } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
 import { IProject } from "../types";
 
@@ -31,19 +32,11 @@ const ProjectCard: FunctionComponent<{
           height={150}
           width={300}
         />
-        {/* <img
-        src={image_path}
-        alt={name}
-        className="cursor-pointer"
-        onClick={() => setShowDetail(true)}
-      /> */}
         <p className="my-2 text-center">{name}</p>
 
         {showDetail && (
           <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
             <div>
-              {/* <img src={image_path} alt={name} /> */}
-
               <Image
                 src={image_path}
                 alt={name}
@@ -62,7 +55,7 @@ const ProjectCard: FunctionComponent<{
                   href={deployed_url}
                   className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
                 >
-                  <AiFillProject /> <span>Project</span>
+                  <FaProjectDiagram /> <span>Project</span>
                 </a>
               </div>
             </div>
