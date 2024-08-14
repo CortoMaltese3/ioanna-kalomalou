@@ -22,4 +22,4 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "react" | "node" | "figma" | "django" | "github projects" | "next";
+export type Category = "react" | "node" | "figma" | "django" | "github projects" | "next" | "adobe illustrator";

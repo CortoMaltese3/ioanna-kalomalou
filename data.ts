@@ -36,33 +36,28 @@ export const services: Service[] = [
 export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Python",
-    level: "45",
+    name: "Project Management",
+    level: "90",
   },
   {
     Icon: BsCircleFill,
-    name: "Java Script",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React Native",
-    level: "80",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React",
+    name: "Graphic Design",
     level: "70",
   },
   {
     Icon: BsCircleFill,
-    name: "Django",
-    level: "80",
+    name: "Agile",
+    level: "40",
   },
   {
     Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "80",
+    name: "Scrum",
+    level: "50",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "HTML & CSS",
+    level: "55",
   },
 ];
 
@@ -118,5 +113,14 @@ export const projects: IProject[] = [
     description:
       "Web interface designed to access climate risk assessment tools.",
     key_techs: ["Figma", "GitHub Projects", "NextJS", "django"],
+  },
+  {
+    name: "Aeolus Cell",
+    image_path: "/images/aeolus.png",
+    deployed_url: "https://www.instagram.com/aeoluscell/",
+    github_url: "",
+    category: ["adobe illustrator"],
+    description: "Brand identity for Aeolus Cell AirBnB cycladic house",
+    key_techs: ["Adobe Illustrator"],
   },
 ];

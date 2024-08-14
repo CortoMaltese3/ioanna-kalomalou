@@ -24,6 +24,7 @@ const ProjectsNavbar: FunctionComponent<{
     <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none">
       <NavItem value="all" {...props} />
       <NavItem value="figma" {...props} />
+      <NavItem value="adobe illustrator" {...props} />
       <NavItem value="github projects" {...props} />
       <NavItem value="django" {...props} />
       <NavItem value="next" {...props} />
