@@ -64,6 +64,16 @@ export const languages: Skill[] = [
 export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
+    name: "Jira",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "GitHub Issues",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
     name: "Figma",
     level: "75",
   },
@@ -79,6 +89,11 @@ export const tools: Skill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "Canva",
+    level: "75",
+  },
+  {
+    Icon: BsCircleFill,
     name: "Scrum",
     level: "45",
   },
@@ -91,8 +106,8 @@ export const projects: IProject[] = [
     image_path: "/images/exlibris.jpg",
     deployed_url: "https://exlibris-zevgoli.gr/",
     github_url: "https://github.com/CortoMaltese3/exLibrisCore",
-    category: ["figma", "github projects"],
-    key_techs: ["Figma", "GitHub Projects", "NextJS"],
+    category: ["figma", "github issues"],
+    key_techs: ["Figma", "GitHub Issues", "NextJS"],
   },
   {
     name: "Personal portfolio",
@@ -101,8 +116,8 @@ export const projects: IProject[] = [
     image_path: "/images/portfolio.webp",
     deployed_url: "https://ioanna-kalomalou.vercel.app//",
     github_url: "https://github.com/CortoMaltese3/simple-portfolio",
-    category: ["figma", "github projects", "next"],
-    key_techs: ["Figma", "GitHub Projects", "NextJS"],
+    category: ["figma", "github issues", "next"],
+    key_techs: ["Figma", "GitHub Issues", "NextJS"],
   },
   {
     name: "Climada Core",
@@ -112,15 +127,15 @@ export const projects: IProject[] = [
     category: ["figma", "next", "django"],
     description:
       "Web interface designed to access climate risk assessment tools.",
-    key_techs: ["Figma", "GitHub Projects", "NextJS", "django"],
+    key_techs: ["Figma", "GitHub Issues", "NextJS", "django"],
   },
   {
     name: "Aeolus Cell",
     image_path: "/images/aeolus.png",
     deployed_url: "https://www.instagram.com/aeoluscell/",
     github_url: "",
-    category: ["adobe illustrator"],
+    category: ["adobe illustrator", "canva"],
     description: "Brand identity for Aeolus Cell AirBnB cycladic house",
-    key_techs: ["Adobe Illustrator"],
+    key_techs: ["Adobe Illustrator", "Canva"],
   },
 ];
