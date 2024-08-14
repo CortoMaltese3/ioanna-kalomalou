@@ -14,8 +14,7 @@ const Resume = () => {
             </h5>
             <p className="font-semibold">Academy of Technology (2017-2021)</p>
             <p className="my-3">
-              I am currently pursuing B.tech in Computer Science Engineering
-              from Academy of Technology
+              Passionate about driving project success and continually seeking ways to enhance efficiency and team performance. With over 7 years of experience, I have successfully led diverse teams and managed complex projects from inception to completion. My expertise encompasses project planning, risk management, and stakeholder communication, with a proven track record of delivering projects on time and within budget. Adept at thriving in high-pressure environments, I strongly focus on customer satisfaction and operational efficiency. Quick to learn new technologies and a dedicated advocate of Scrum methodologies.
             </p>
           </div>
         </div>

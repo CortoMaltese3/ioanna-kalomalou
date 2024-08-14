@@ -15,10 +15,7 @@ const About: NextPage = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium">
-        I am currently pursuing B.Tech Degree(Final Year) in Computer Science
-        Engineering from Academy of Technology. I have 3+ years of experience in
-        Web Development and I have a Youtube Channel where I teach Full Stack
-        Web Development
+        Passionate about driving project success and continually seeking ways to enhance efficiency and team performance. With over 7 years of experience, I have successfully led diverse teams and managed complex projects from inception to completion. My expertise encompasses project planning, risk management, and stakeholder communication, with a proven track record of delivering projects on time and within budget. Adept at thriving in high-pressure environments, I strongly focus on customer satisfaction and operational efficiency. Quick to learn new technologies and a dedicated advocate of Scrum methodologies.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
