@@ -1,17 +1,9 @@
-import {
-  GetServerSideProps,
-  GetServerSidePropsContext,
-  GetStaticProps,
-  GetStaticPropsContext,
-  NextPage,
-} from "next";
+import { NextPage } from "next";
+
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
-import { Service } from "../types";
 
 const About: NextPage = () => {
-  // console.log(services);
-
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium">
@@ -22,7 +14,7 @@ const About: NextPage = () => {
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
         <h4 className="my-3 text-xl font-semibold tracking-wide">
-          What I am doing
+          Skills
         </h4>
 
         <div className="grid gap-6 my-3 md:grid-cols-2">

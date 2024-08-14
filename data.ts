@@ -1,46 +1,35 @@
-import { RiComputerLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
-import { MdDeveloperMode } from "react-icons/md";
-import { IProject, Service, Skill } from "./types";
-
 import { BsCircleFill } from "react-icons/bs";
+import { DiScrum } from "react-icons/di";
+import { MdManageAccounts } from "react-icons/md";
+import { RiPencilRuler2Line } from "react-icons/ri";
+import { SiGooglemarketingplatform } from "react-icons/si";
+
+import { IProject, Service, Skill } from "./types";
 
 export const services: Service[] = [
   {
-    Icon: RiComputerLine,
-    title: "Frontend Development",
+    Icon: RiPencilRuler2Line,
+    title: "UI/UX & Graphic Design",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "Skilled in designing user-friendly interfaces and creating compelling visuals using Figma, Adobe Illustrator, and Canva to enhance both web and mobile experiences.",
   },
   {
-    Icon: FaServer,
-    title: "Backend  Development",
+    Icon: MdManageAccounts,
+    title: "Project Management",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "Expert in managing projects from start to finish, ensuring timely delivery and compliance with requirements",
   },
   {
-    Icon: AiOutlineApi,
-    title: "API Development",
+    Icon: DiScrum,
+    title: "Agile & Scrum",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "Experienced in Agile and Scrum, leading teams to deliver projects efficiently and effectively.",
   },
   {
-    Icon: MdDeveloperMode,
-    title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
-  },
-  {
-    Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
+    Icon: SiGooglemarketingplatform,
+    title: "Digital Marketing",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
-  },
-  {
-    Icon: RiComputerLine,
-    title: "Whatever",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+      "Utilizes digital marketing strategies to boost brand visibility and engage audiences.",
   },
 ];
 
@@ -101,7 +90,7 @@ export const tools: Skill[] = [
 ];
 
 export const projects: IProject[] = [
-  { 
+  {
     name: "COVID Tracker",
     description:
       "This app shows a statistical view about corona virus over the world",
