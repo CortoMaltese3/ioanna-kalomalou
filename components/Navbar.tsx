@@ -24,7 +24,6 @@ const Navbar = () => {
 
    const [active, setActive] = useState('')
 
-   //later
    useEffect(() => {
       if (pathname === '/') setActive('About')
       else if (pathname === '/projects') setActive('Projects')
