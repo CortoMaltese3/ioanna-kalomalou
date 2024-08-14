@@ -1,5 +1,5 @@
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { GiTie } from "react-icons/gi";
+import { PiReadCvLogoBold } from "react-icons/pi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
 import Image from "next/image";
@@ -34,7 +34,7 @@ const Sidebar = () => {
         download="KALOMALOU_Ioanna_CV.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
-        <GiTie className="w-6 h-6" />
+        <PiReadCvLogoBold className="w-6 h-6 mr-2" />
         <span>Download Resume</span>
       </a>
 
