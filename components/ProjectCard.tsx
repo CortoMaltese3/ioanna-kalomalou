@@ -23,16 +23,16 @@ const ProjectCard: FunctionComponent<{
 
     return (
       <div>
-        <Image
-          src={image_path}
-          alt={name}
-          className="cursor-pointer"
-          onClick={() => setShowDetail(true)}
-          layout="responsive"
-          height={150}
-          width={300}
-        />
-        <p className="my-2 text-center">{name}</p>
+        <div className="relative w-full h-36">
+          <Image
+            src={image_path}
+            alt={name}
+            className="cursor-pointer object-cover"
+            onClick={() => setShowDetail(true)}
+            layout="fill"
+          />
+        </div>
+        <p className="mt-2 text-center">{name}</p>
 
         {showDetail && (
           <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">

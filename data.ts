@@ -96,7 +96,17 @@ export const projects: IProject[] = [
     image_path: "/images/exlibris.jpg",
     deployed_url: "https://exlibris-zevgoli.gr/",
     github_url: "https://github.com/CortoMaltese3/exLibrisCore",
-    category: [],
+    category: ["figma", "github projects"],
+    key_techs: ["Figma", "GitHub Projects", "NextJS"],
+  },
+  {
+    name: "Personal portfolio",
+    description:
+      "Simple & professional UI/UX designer & Product Owner portfolio",
+    image_path: "/images/portfolio.webp",
+    deployed_url: "https://ioanna-kalomalou.vercel.app//",
+    github_url: "https://github.com/CortoMaltese3/simple-portfolio",
+    category: ["figma", "github projects", "next"],
     key_techs: ["Figma", "GitHub Projects", "NextJS"],
   },
   {
@@ -104,9 +114,9 @@ export const projects: IProject[] = [
     image_path: "/images/climada.png",
     deployed_url: "https://climada-core.gr/",
     github_url: "https://github.com/CortoMaltese3/climada-core",
-    category: [],
+    category: ["figma", "next", "django"],
     description:
       "Web interface designed to access climate risk assessment tools.",
-    key_techs: ["Figma", "GitHub Projects", "NextJS"],
+    key_techs: ["Figma", "GitHub Projects", "NextJS", "django"],
   },
 ];
