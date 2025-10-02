@@ -3,6 +3,7 @@ import { PiReadCvLogoBold } from "react-icons/pi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -10,6 +11,8 @@ const Sidebar = () => {
   const changeTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
+
+  const { basePath } = useRouter();
 
   return (
     <>
