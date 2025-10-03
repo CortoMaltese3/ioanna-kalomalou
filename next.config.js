@@ -6,6 +6,9 @@ const nextConfig = {
   ...(isProd ? { output: "export" } : {}), // only export in production
   basePath: isProd ? `/${repo}` : "",
   assetPrefix: isProd ? `/${repo}/` : "",
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isProd ? `/${repo}` : "",
+  },
   images: {
     unoptimized: true,
   },
