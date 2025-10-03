@@ -3,6 +3,7 @@ import { PiReadCvLogoBold } from "react-icons/pi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -11,10 +12,12 @@ const Sidebar = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
 
+  const { basePath } = useRouter();
+
   return (
     <>
       <Image
-        src="/images/avatar.png"
+        src={`${basePath}/images/avatar.png`}
         alt="avatar"
         className=" mx-auto border rounded-full "
         height={128}
@@ -29,7 +32,7 @@ const Sidebar = () => {
       </p>
       {/* Resume */}
       <a
-        href="/assets/KALOMALOU_Ioanna_CV.pdf"
+        href={`${basePath}/assets/KALOMALOU_Ioanna_CV.pdf`}
         download="KALOMALOU_Ioanna_CV.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
