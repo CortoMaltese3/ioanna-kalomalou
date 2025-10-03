@@ -3,7 +3,6 @@ import { PiReadCvLogoBold } from "react-icons/pi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
 import Image from "next/image";
-import { useRouter } from "next/router";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -11,8 +10,6 @@ const Sidebar = () => {
   const changeTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
-
-  const { basePath } = useRouter();
 
   return (
     <>
@@ -22,8 +19,7 @@ const Sidebar = () => {
         className=" mx-auto border rounded-full "
         height={128}
         width={128}
-        layout="intrinsic"
-        quality="100"
+        priority
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         <span className="text-green">Ioanna </span>Kalomalou
@@ -46,7 +42,7 @@ const Sidebar = () => {
         <a href="https://www.instagram.com">
           <AiFillInstagram className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.linkedin.com/in/ioanna-kalomalou/" >
+        <a href="https://www.linkedin.com/in/ioanna-kalomalou/">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="https://github.com/JoleneKalom/">
@@ -60,7 +56,8 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center">
-          <GoLocation className="mr-2" /><span>Athens, Greece</span>
+          <GoLocation className="mr-2" />
+          <span>Athens, Greece</span>
         </div>
         <p className="my-2 ">jolenekalom@gmail.com</p>
       </div>
@@ -80,7 +77,8 @@ const Sidebar = () => {
         Toggle Theme
       </button>
     </>
-  ); 1
+  );
+  1;
 };
 
 export default Sidebar;
